@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <img id="selfie" src="photos\DevinMina.png" alt="DevinMinaSelfie" />
+    <h1>Devin M. Mina</h1>
+    <p id="role"><strong>Web Developer</strong></p>
+    <p id="intro">
+      My passion is developing professional and captivating webpages.
+    </p>
+
+    <hr />
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="hobbies.html">My Hobbies</a>
+      <a href="socials.html">Socials</a>
+    </div>
+    <hr />
+
+    <form
+      action="mailto:devin.m.mina@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <input type="text" name="Name" placeholder="Your Name" required />
+      <br />
+
+      <input type="email" name="E-Mail" placeholder="Your E-mail" required />
+      <br />
+
+      <input
+        type="tel"
+        name="PhoneNumber"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        placeholder="999-999-9999"
+        required
+      />
+      <br />
+      <textarea
+        name="Message"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Your Message..."
+        required
+      ></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

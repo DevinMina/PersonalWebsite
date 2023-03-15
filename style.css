@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+
+#role,
+#intro {
+  font-style: italic;
+  text-align: center;
+}
+
+#selfie {
+  display: block;
+  margin: auto;
+  height: 20rem;
+  border-radius: 70%;
+}
+
+th {
+  text-align: left;
+}
+
+.topnav {
+  text-align: center;
+}
+
+#skills,
+#experience {
+  font-size: 25px;
+  font-style: italic;
+}
