@@ -1,5 +1,14 @@
+/*Color Pallet*/
+/*
+#F6F1F1
+#19A7CE
+#146C94
+#000000
+*/
+
+
 body {
-  background-color: #98DFD6;
+  background-color: #F6F1F1;
   color: black;
 }
 
@@ -35,3 +44,17 @@ th {
   font-size: 25px;
   font-style: italic;
 }
+
+a {
+  color: #19A7CE;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dashed;
+  border-width: 5px;
+  border-color: #19A7CE;
+  width: 12%;
+  
+}
+
