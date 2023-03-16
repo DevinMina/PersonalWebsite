@@ -1,3 +1,8 @@
+body {
+  background-color: #98DFD6;
+  color: black;
+}
+
 h1 {
   text-align: center;
 }
@@ -13,6 +18,8 @@ h1 {
   margin: auto;
   height: 20rem;
   border-radius: 70%;
+  border-style: solid;
+  border: 30px;
 }
 
 th {
