@@ -12,14 +12,16 @@ body {
 
 h1,
 h3 {
-  text-align: center;
-  color: #f5e9cf;
+  color: #e96479;
 }
 
-#role,
 #intro {
   font-style: italic;
   text-align: center;
+}
+
+#role {
+  color: #f5e9cf;
 }
 
 #selfie {
@@ -36,21 +38,19 @@ th {
 }
 
 .topnav {
-  text-align: center;
-  font-size: larger;
+  text-align: left;
+  font-size: large;
   margin: auto;
 }
 
-#skills,
-#experience {
-  font-size: 25px;
-  font-style: italic;
-}
-
 a {
-  color: #f9dbbb;
+  color: #7db9b6;
 }
 
 hr {
-  border-top: #4d455d;
+  border-color: #f5e9cf;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 10%;
 }
