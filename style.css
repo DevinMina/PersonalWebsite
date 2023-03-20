@@ -1,19 +1,19 @@
 /*Color Pallet*/
 /*
-#F6F1F1
-#19A7CE
-#146C94
-#000000
+#4d455d
+#e96479
+#f5e9cf
+#7db9b6
 */
 
-
 body {
-  background-color: #F6F1F1;
-  color: black;
+  background-color: #4d455d;
 }
 
-h1 {
+h1,
+h3 {
   text-align: center;
+  color: #f5e9cf;
 }
 
 #role,
@@ -37,6 +37,8 @@ th {
 
 .topnav {
   text-align: center;
+  font-size: larger;
+  margin: auto;
 }
 
 #skills,
@@ -46,15 +48,9 @@ th {
 }
 
 a {
-  color: #19A7CE;
+  color: #f9dbbb;
 }
 
-hr{
-  border-style: none;
-  border-top-style: dashed;
-  border-width: 5px;
-  border-color: #19A7CE;
-  width: 12%;
-  
+hr {
+  border-top: #4d455d;
 }
-
